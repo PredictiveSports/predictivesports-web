@@ -1,4 +1,4 @@
-const PITCHIQ_URL = "https://pitchiq.predictivesports.io";
+const PITCHIQ_URL = "https://pitchiqs.predictivesports.io";
 
 function BrandMark() {
   return (
@@ -64,7 +64,7 @@ export default function Home() {
             <div className="hero-copy">
               <span className="eyebrow">
                 <span className="tick" />
-                Decision intelligence · Sport
+                Made for players &amp; coaches
               </span>
               <h1 className="display">
                 Think one
@@ -72,13 +72,13 @@ export default function Home() {
                 play <span className="grad">ahead.</span>
               </h1>
               <p className="lead">
-                Predictive Sports builds tools that turn real game data into clear,
-                in-the-moment decisions — for the athletes and coaches who live by
-                the next play.
+                We build apps that help players and coaches make a smarter call in
+                the moments that decide a game — using real game data, not just gut
+                feel.
               </p>
               <div className="hero-cta">
                 <a className="btn-primary" href="#products">
-                  See our work
+                  See what we&apos;ve built
                   <ArrowIcon />
                 </a>
                 <a className="btn-ghost" href="#approach">
@@ -102,42 +102,42 @@ export default function Home() {
                 How we think
               </span>
               <h2 className="h2">
-                Data is only useful the
+                Data matters most in the
                 <br />
-                moment before a decision.
+                second before a decision.
               </h2>
               <p className="lead">
-                Most sports analytics tell you what already happened. We build for
-                the seconds that matter — when someone has to choose, and the right
-                read wins the moment.
+                Most sports stats tell you what already happened. We build for the
+                moment just before — when someone has to make a call, and the right
+                read changes what happens next.
               </p>
             </div>
 
             <div className="principles">
               <div className="principle">
                 <div className="pidx">01</div>
-                <h3>Read, don&apos;t report</h3>
+                <h3>Point to the call, not the chart</h3>
                 <p>
-                  Dashboards look backward. Our tools surface the one read that
-                  changes the next play — fast enough to act on, simple enough to
-                  trust.
+                  Dashboards look backward. Our apps show you the one thing that
+                  matters for the next decision — fast enough to use mid-game,
+                  simple enough to trust.
                 </p>
               </div>
               <div className="principle">
                 <div className="pidx">02</div>
-                <h3>Grounded in real games</h3>
+                <h3>Built on real games</h3>
                 <p>
-                  Every recommendation traces back to actual play-by-play data and
-                  tendencies — not a black box. Athletes see why, not just what.
+                  Every suggestion comes from actual game data and tendencies — no
+                  black box. You can always see why, not just what.
                 </p>
               </div>
               <div className="principle">
                 <div className="pidx">03</div>
-                <h3>Built for game day</h3>
+                <h3>Made for game day</h3>
                 <p>
-                  Designed with the people who use it — athletes, coaches, and
-                  analysts. If it doesn&apos;t work in the flow of the game, it
-                  doesn&apos;t ship.
+                  We design with the people who&apos;ll actually use it — players and
+                  coaches. If it doesn&apos;t hold up in a real game, we don&apos;t
+                  ship it.
                 </p>
               </div>
             </div>
@@ -156,10 +156,10 @@ export default function Home() {
                 <span className="tick" />
                 What we make
               </span>
-              <h2 className="h2">Our products.</h2>
+              <h2 className="h2">Our apps.</h2>
               <p className="lead">
-                One focused tool today, with more on the way — each built on the
-                same idea: the right call, at the right moment.
+                One app so far, with more on the way — each built on the same simple
+                idea: the right call, at the right moment.
               </p>
             </div>
 
@@ -167,12 +167,12 @@ export default function Home() {
               {/* Flagship: PitchIQ */}
               <article className="product-card flagship">
                 <div className="product-info">
-                  <span className="product-tag">Flagship · Live</span>
+                  <span className="product-tag">Our first app</span>
                   <h3 className="pname">PitchIQ</h3>
                   <p className="pdesc">
-                    Our first app — a baseball training tool that helps catchers and
-                    pitchers think one pitch ahead, reading the count, the zone, and
-                    the hitter to call the smarter pitch.
+                    PitchIQ helps catchers and pitchers think one pitch ahead —
+                    reading the count, the zone, and the hitter to call a smarter
+                    pitch.
                   </p>
                   <div className="product-meta">
                     <div className="pm">
@@ -199,14 +199,14 @@ export default function Home() {
               <div className="next-card">
                 <div className="nc-copy">
                   <span className="nc-eyebrow">In development</span>
-                  <h3>More of the game, decoded.</h3>
+                  <h3>Baseball&apos;s just the start.</h3>
                   <p>
-                    We&apos;re extending the same decision engine to new sports and
-                    new moments — wherever a split-second read changes the outcome.
-                    Want early access?
+                    We&apos;re bringing the same approach to other sports — anywhere
+                    a fast, well-judged call makes the difference. Want a look before
+                    everyone else?
                   </p>
                 </div>
-                <div className="nc-slot">[ next product — TBA ]</div>
+                <div className="nc-slot">[ next app — TBA ]</div>
               </div>
             </div>
           </div>
@@ -226,10 +226,10 @@ export default function Home() {
                 a long obsession.
               </h2>
               <p className="lead">
-                Predictive Sports is a focused team of engineers, designers, and
-                athletes building decision tools for the games we grew up on. We
-                ship slowly, listen to the people who play and coach, and care about
-                getting the call right.
+                We&apos;re a small group of engineers, designers, and former players
+                building the tools we always wished we&apos;d had. We move carefully,
+                listen to the people who actually play and coach, and sweat the
+                details that decide a game.
               </p>
             </div>
           </div>
@@ -249,8 +249,8 @@ export default function Home() {
                 Let&apos;s talk.
               </h2>
               <p className="lead">
-                Whether you want early access to what&apos;s next, a partnership, or
-                just to trade notes on the game — we read every message.
+                Want an early look, a partnership, or just to talk shop about the
+                game? We read every message.
               </p>
               <a className="contact-email" href="mailto:hello@predictivesports.io">
                 <svg
@@ -287,8 +287,8 @@ export default function Home() {
                   </span>
                 </a>
                 <p className="fdesc">
-                  Decision-intelligence tools for sport. Read the game, make the
-                  call.
+                  Apps that help players and coaches make smarter calls. Read the
+                  game, make the call.
                 </p>
               </div>
               <div className="footer-cols">

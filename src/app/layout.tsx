@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-const title = "Predictive Sports — Decision intelligence for sport";
+const title = "Predictive Sports — Read the game. Make the call.";
 const description =
-  "Predictive Sports builds decision-intelligence tools that help athletes and coaches think one play ahead — grounded in real game data. Makers of PitchIQ.";
+  "Predictive Sports builds apps that help players and coaches make smarter calls in the moments that decide a game — using real game data. Makers of PitchIQ.";
 
 export const metadata: Metadata = {
   title,
